@@ -1,0 +1,21 @@
+.banner {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    border-radius: 50px;
+    background-color: darkgreen;
+    background-color:lightgreen;
+    height: 300px;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    background-color: darkgreen;
+    border-radius: 100px;
+    padding: 25px;
+}

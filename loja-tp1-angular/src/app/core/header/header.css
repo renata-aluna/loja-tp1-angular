@@ -1,0 +1,35 @@
+* {
+    display: flex;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(90deg, rgb(100, 233, 100), green, rgb(100, 233, 100));
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    height: 100px;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    color: white;
+}
