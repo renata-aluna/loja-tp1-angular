@@ -1,7 +1,5 @@
-<app-header></app-header>
-<app-banner></app-banner>
+<app-header [tituloLoja]="'Loja TP1 Angular'" (textoSobre)="receberSobre($event)"></app-header>
 <div class="container">
-  <h2>Angular aula 02</h2>
-  <span>Em construção</span>
+    <router-outlet></router-outlet>
 </div>
 <app-footer></app-footer>

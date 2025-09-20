@@ -1,15 +1,11 @@
-footer {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    background-color: green;
-    color: white;
-
-    /*position: absolute;
-    bottom: 0;*/
-}
-
-footer p {
+footer{
+    background-color: rgb(105, 216, 120);
+    color: black;
     text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
 }
